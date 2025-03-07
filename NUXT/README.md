@@ -1,17 +1,23 @@
 ### INITIAL CONFIGURATIONS
 
+Create nuxt project
+
+```sh
+npm create nuxt <project-name>
+```
+---
+---
+Run app nuxt locally on port 3000
+
+```sh
+npm run dev
+```
 install dependencies
 
 ```sh
 npm init
 npm install
 npm install nuxt
-```
----
-Run app nuxt locally on port 3000
-
-```sh
-npm run dev
 ```
 ---
 Build for production and launch server
