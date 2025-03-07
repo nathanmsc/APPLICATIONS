@@ -23,8 +23,8 @@ ssh -T git@github.com
 Clone and pull repository
 
 ```git
-git clone git@github.com:mindsetcloud-IT/StoreOfBuild.git
-git pull git@github.com:mindsetcloud-IT/StoreOfBuild.git
+git clone git@github.com:nathanmsc/APPLICATIONS.git
+git pull git@github.com:nathanmsc/APPLICATIONS.git
 ```
 
 Configure user CLI
