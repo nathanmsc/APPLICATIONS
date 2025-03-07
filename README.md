@@ -11,8 +11,10 @@ cat ~/.ssh/id_rsa.pub
 Make ssh key on github
 
 ```html
-<a>https://github.com/settings/keys</a>
+<body>
+<a href="https://github.com/settings/keys">Github Keys</a>
 <p>SSH an GPG keys</p>
+</body>
 ```
 
 Test connection ssh
