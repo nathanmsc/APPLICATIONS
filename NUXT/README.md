@@ -1,9 +1,15 @@
 ### INITIAL CONFIGURATIONS
 
+Install NodeJS and Npm
+
+```sh
+apt install nodejs npm
+```
+---
 Create nuxt project
 
 ```sh
-npm create nuxt <project-name>
+npx create-nuxt-app@latest app
 ```
 ---
 ---
