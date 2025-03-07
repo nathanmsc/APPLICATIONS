@@ -3,6 +3,7 @@
 install dependencies
 
 ```sh
+npm init
 npm install
 npm install nuxt
 ```
