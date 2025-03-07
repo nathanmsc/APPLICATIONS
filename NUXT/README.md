@@ -26,7 +26,13 @@ Generate static project
 npm run generate
 ```
 
+If proxy configured
 
+```sh
+#set proxy on npm
+npm config set proxy "http://meu.endereco.proxy:80"
+npm config set https-proxy "http://meu.endereco.proxy:80"
+```
 
 
 
