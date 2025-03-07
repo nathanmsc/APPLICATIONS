@@ -10,7 +10,9 @@ cat ~/.ssh/id_rsa.pub
 ```
 Make ssh key on github from SSH an GPG keys
 
+---
 - [SSH KEY]](https://github.com/settings/keys)
+---
 
 Test connection ssh
 
