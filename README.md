@@ -8,13 +8,10 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 cat ~/.ssh/id_rsa.pub
 ```
-Make ssh key on github
+Make ssh key on github from SSH an GPG keys
 
-```html
-<body>
-<a href="https://github.com/settings/keys">Github Keys</a>
-<p>SSH an GPG keys</p>
-</body>
+```txt
+https://github.com/settings/keys
 ```
 
 Test connection ssh
@@ -27,6 +24,7 @@ git config --global user.email "mindsetcloud@dominio.comm"
 git config --global user.name "namea"
 git push --set-upstream origin main
 ```
+
 If proxy configured
 
 ```sh
