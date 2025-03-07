@@ -18,17 +18,20 @@ Test connection ssh
 
 ```sh
 ssh -T git@github.com
+```
+
+Clone and pull repository
+
+```git
 git clone git@github.com:mindsetcloud-IT/StoreOfBuild.git
 git pull git@github.com:mindsetcloud-IT/StoreOfBuild.git
-git config --global user.email "mindsetcloud@dominio.comm"
-git config --global user.name "namea"
+```
+
+Configure user CLI
+
+```sh
+git config --global user.email "user@dominio.comm"
+git config --global user.name "name"
 git push --set-upstream origin main
 ```
 
-If proxy configured
-
-```sh
-#set proxy on npm
-npm config set proxy "http://meu.endereco.proxy:80"
-npm config set https-proxy "http://meu.endereco.proxy:80"
-```
