@@ -38,4 +38,11 @@ git config --global user.email "user@dominio.comm"
 git config --global user.name "name"
 git push --set-upstream origin main
 ```
+---
+Git basic commands
 
+```sh
+git status
+git add
+git commit
+```
