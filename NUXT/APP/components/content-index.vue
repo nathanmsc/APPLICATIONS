@@ -1,10 +1,11 @@
 <template>
     <div>
       <div align="center">
+        <hr>
         <h3>DATA ENGINEERING TOOLS AND INFRASTRUCTURE</h3>
       </div>
       <div align="center">
-        <p>
+        <p class="content">
             By leveraging Kubernetes and containerization, organizations can build a resilient, scalable, and secure infrastructure for data engineering.
             This setup not only enhances the efficiency of data processing and analysis but also ensures adaptability to evolving challenges, providing a robust foundation for data-driven decision-making.
         </p>
@@ -12,13 +13,19 @@
     </div>
   </template>
   
-  <script>
+<script>
   export default {
     name: "ContentTemplate",
   };
-  </script>
+</script>
   
-  <style scoped>
-  /* Add any specific styles if needed */
-  </style>
+<style scoped>
+.content{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    font-size: larger
+}
+</style>
   

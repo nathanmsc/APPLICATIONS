@@ -24,14 +24,26 @@
         </b-row>
       </b-container>
 
-        <div class="footer-copyright text-center text-white bg-dark py-3">
+        <div class="footer-copyright text-center text-white py-3">
             Copyright © mindsetcloud.net - 2020
         </div>
     </footer>
 </template>
 <style>
 .page-footer{
- background-color: rgba(27,123,227, 0.7);
- color: rgba(221,227,227, 0.7);
+ background-color: #15417E;
+ color: rgb(255, 255, 255);
 }
+.footer-copyright{
+  background-color: #010f20;
+}
+
+/*
+#15417E
+#010f20
+#0d1117
+rgb(103, 146, 205);
+*/
+
+
 </style>

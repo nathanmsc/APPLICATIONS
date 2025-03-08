@@ -3,7 +3,7 @@
     <Navbar
      expand="lg"
      theme="dark"
-     background-color="primary"
+     style="background-color: #010f20;"
     >
      <Container type="fluid">
       <NavbarBrand>Navbar</NavbarBrand>
@@ -57,4 +57,7 @@
      </Container>
     </Navbar>
     
-   </template>
+</template>
+<style>
+
+</style>
