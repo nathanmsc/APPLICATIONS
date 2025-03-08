@@ -10,6 +10,8 @@ Create nuxt project
 
 ```sh
 npx create-nuxt-app@latest app
+# Or
+npx nuxi init APP
 ```
 ---
 ---
