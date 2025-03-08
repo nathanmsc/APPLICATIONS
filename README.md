@@ -27,6 +27,7 @@ Clone and pull repository
 ```git
 git clone git@github.com:nathanmsc/APPLICATIONS.git
 git pull git@github.com:nathanmsc/APPLICATIONS.git
+git init
 ```
 
 ---
