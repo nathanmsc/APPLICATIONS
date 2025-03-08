@@ -48,7 +48,17 @@ If proxy configured
 npm config set proxy "http://meu.endereco.proxy:80"
 npm config set https-proxy "http://meu.endereco.proxy:80"
 ```
-
+---
+Remove  <NuxtWelcome /> in app.vue with your own code, or creating your own app.vue
+```vue
+<template>
+  <div>
+    <HomePage />
+    <!--<NuxtRouteAnnouncer />-->
+    <!--<NuxtWelcome />-->
+  </div>
+</template>
+```
 
 
 
