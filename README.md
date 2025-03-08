@@ -8,6 +8,7 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 cat ~/.ssh/id_rsa.pub
 ```
+
 ---
 Make ssh key on github from SSH an GPG keys
 
@@ -19,6 +20,7 @@ Test connection ssh
 ```sh
 ssh -T git@github.com
 ```
+
 ---
 Clone and pull repository
 
@@ -26,6 +28,7 @@ Clone and pull repository
 git clone git@github.com:nathanmsc/APPLICATIONS.git
 git pull git@github.com:nathanmsc/APPLICATIONS.git
 ```
+
 ---
 Configure user CLI
 
