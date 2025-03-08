@@ -60,7 +60,23 @@ Remove  <NuxtWelcome /> in app.vue with your own code, or creating your own app.
 </template>
 ```
 
+Create a basic structure (compontents, pages, layouts)
 
+```sh
+.
+└── APP/
+    ├── app.vue
+    ├── components/
+    │   ├── Header.vue
+    │   ├── Content.vue
+    │   └── Footer.vue
+    ├── pages/
+    │   ├── Home.vue
+    │   └── Contact.vue    
+    └── layouts/
+        ├── default.vue
+        └── custom.vue
+```
 
 
 
