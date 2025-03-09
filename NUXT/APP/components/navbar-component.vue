@@ -6,36 +6,29 @@
      style="background-color: #010f20;"
     >
      <Container type="fluid">
-      <NavbarBrand>Navbar</NavbarBrand>
+      <NavbarBrand to="/">MINDSETCLOUD</NavbarBrand>
       <NavbarToggler />
       <NavbarCollapse>
        <NavbarNavList margin="e-auto b-2 b-lg-0">
         <NavItem>
-         <NavLink active>
+         <NavLink to="/home">
           Home
          </NavLink>
         </NavItem>
         <NavItem>
-         <NavLink to="/lang-en/components/navbar/">
-          Link
+         <NavLink to="/services">
+          Services
          </NavLink>
         </NavItem>
         <NavItemDropdown>
-         <NavItemDropdownToggle>Dropdown</NavItemDropdownToggle>
+         <NavItemDropdownToggle>Projects</NavItemDropdownToggle>
          <DropdownMenu>
-          <DropdownItem>Action</DropdownItem>
-          <DropdownItem to="/lang-en/components/navbar/">
-           Another action
-          </DropdownItem>
+          <DropdownItem to="/dashboard">Dashboard</DropdownItem>
+          <DropdownItem to="/stream">Real Time</DropdownItem>
           <DropdownItemDivider />
-          <DropdownItem>Something else here</DropdownItem>
+          <DropdownItem to="iot">IoT</DropdownItem>
          </DropdownMenu>
-        </NavItemDropdown>
-        <NavItem>
-         <NavLink disabled>
-          Disabled
-         </NavLink>
-        </NavItem>
+        </NavItemDropdown>        
        </NavbarNavList>
        <BForm
         flex
@@ -59,5 +52,14 @@
     
 </template>
 <style>
+.container-fluid{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.navbar-brand{
+    font-weight: 600;
+}
 
 </style>
