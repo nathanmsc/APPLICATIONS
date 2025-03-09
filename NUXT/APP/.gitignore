@@ -4,6 +4,7 @@
 .nuxt
 .nitro
 .cache
+app.vue.bkp
 #dist
 
 # Node dependencies
