@@ -26,7 +26,7 @@
           <DropdownItem to="/dashboard">Dashboard</DropdownItem>
           <DropdownItem to="/stream">Real Time</DropdownItem>
           <DropdownItemDivider />
-          <DropdownItem to="iot">IoT</DropdownItem>
+          <DropdownItem to="/iot">IoT</DropdownItem>
          </DropdownMenu>
         </NavItemDropdown>        
        </NavbarNavList>

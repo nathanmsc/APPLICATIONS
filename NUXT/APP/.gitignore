@@ -5,6 +5,7 @@
 .nitro
 .cache
 app.vue.bkp
+.gitignore
 #dist
 
 # Node dependencies
