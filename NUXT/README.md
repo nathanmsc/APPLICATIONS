@@ -32,9 +32,19 @@ components: true,
 
 #6792cd
 ---
+# Deploy on azure web static app
+```
+npx nuxi build --preset=azure
+npx @azure/static-web-apps-cli start .output/public --api-location .output/server
+```
+---
+```bash
+
+```
 # Set Path to application
 app_location: "/NUXT" # App source code path
 api_location: ".output/server" # Api source code path - optional
 output_location: ".output/public" # Built app content directory - optional
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+[deployment documentation](https://nuxt.com/docs/getting-started/deployment) 
+[deployment on azure](https://nuxt.com/deploy/azure)
