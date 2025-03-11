@@ -23,7 +23,7 @@ npx nuxi@latest module add usebootstrap
 
 ```
 ---
-#nuxt.config.ts
+# nuxt.config.ts
 components: true,
 ---
 #0E2647
@@ -31,10 +31,7 @@ components: true,
 #15417E
 
 #6792cd
-
-
-
-
+---
 # Set Path to application
 app_location: "/NUXT" # App source code path
 api_location: ".output/server" # Api source code path - optional
