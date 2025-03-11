@@ -1,7 +1,7 @@
 <script setup>
 useSeoMeta({
   title: 'MINDSETCLOUD',
-  description: 'The Intuitive Vue Framework.'
+  description: 'IoT and Data Services.'
 })
 </script>
 
