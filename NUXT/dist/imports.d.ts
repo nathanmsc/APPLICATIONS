@@ -30,7 +30,6 @@ export { computedAsync, asyncComputed, computedEager, eagerComputed, computedInj
 export { useImage } from '../node_modules/@nuxt/image/dist/runtime/composables';
 export { flatUnwrap as unwrapSlot } from '../node_modules/@nuxtjs/mdc/dist/runtime/utils/node';
 export { parseMarkdown } from '../node_modules/@nuxtjs/mdc/dist/runtime/parser';
-export { useNuxtDevTools } from '../node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { defineRobotMeta } from '../node_modules/@nuxtjs/robots/dist/runtime/nuxt/composables/defineRobotMeta';
 export { useRobotsRule } from '../node_modules/@nuxtjs/robots/dist/runtime/nuxt/composables/useRobotsRule';
 export { definePageMeta } from '../node_modules/nuxt/dist/pages/runtime/composables';
