@@ -1,0 +1,1 @@
+export { default } from "/home/mindsetcloud/src/APPLICATIONS/NUXT/node_modules/@nuxt/image/dist/runtime/components/NuxtImg.vue"

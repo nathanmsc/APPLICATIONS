@@ -1,0 +1,1 @@
+export { default } from "file:///home/mindsetcloud/src/APPLICATIONS/NUXT/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"

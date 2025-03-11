@@ -4,5 +4,5 @@ export default defineNuxtConfig({
   components: true,
   devtools: { enabled: true },
   modules: ['usebootstrap'],
-  buildDir: 'dist/'
+  /*buildDir: 'dist/'*/
 })
