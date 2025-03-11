@@ -7,9 +7,9 @@ useSeoMeta({
 
 <template>
   <div id=app>
-   
+  <navbar-component/> 
     <NuxtPage />
-   
+  <footer-component/>
   </div>
 </template>
 
