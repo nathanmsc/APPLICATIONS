@@ -2,74 +2,42 @@
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
-
-Make sure to install dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
 
 ## Development Server
 
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+source ~/.bashrc
+nvm install 22.14.0
+nvm use 22.14.0
 
-# pnpm
-pnpm dev
+node --version
 
-# yarn
-yarn dev
+npx nuxi init NUXT
+npm install
+npx nuxi build
+npx nuxi dev
+npx nuxi@latest module add usebootstrap 
 
-# bun
-bun run dev
 ```
+---
+#nuxt.config.ts
+components: true,
+---
+#0E2647
 
-## Production
+#15417E
 
-Build the application for production:
+#6792cd
 
-```bash
-# npm
-npm run build
 
-# pnpm
-pnpm build
 
-# yarn
-yarn build
 
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
+# Set Path to application
+app_location: "/NUXT" # App source code path
+api_location: ".output/server" # Api source code path - optional
+output_location: ".output/public" # Built app content directory - optional
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
