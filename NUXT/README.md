@@ -39,7 +39,24 @@ npx @azure/static-web-apps-cli start .output/public --api-location .output/serve
 ```
 ---
 ```bash
-
+{
+  "routes": [
+    {
+      "route": "/index.html",
+      "redirect": "/"
+    },
+    {
+      "route": "/",
+      "rewrite": "/api/server"
+    }
+  ],
+  "platform": {
+    "apiRuntime": "node:18"
+  },
+  "navigationFallback": {
+    "rewrite": "/api/server"
+  }
+}
 ```
 # Set Path to application
 app_location: "/NUXT" # App source code path
