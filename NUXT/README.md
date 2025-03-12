@@ -41,7 +41,7 @@ npx @azure/static-web-apps-cli start .output/public --api-location .output/serve
 ```yaml
 ###### Repository/Build Configurations ######
 app_location: '/'
-api_location: '.output/server'
+api_location: '/github/workspace/.output/server'
 output_location: '.output/public'
 ###### End of Repository/Build Configurations ######
 ```
@@ -73,3 +73,5 @@ output_location: ".output/public" # Built app content directory - optional
 
 [deployment documentation](https://nuxt.com/docs/getting-started/deployment) 
 [deployment on azure](https://nuxt.com/deploy/azure)
+[swa cli](https://azure.github.io/static-web-apps-cli/docs/cli/swa-start/)
+[Deployment Error resolved](https://github.com/Azure/static-web-apps/issues/1068)
