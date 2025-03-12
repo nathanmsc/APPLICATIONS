@@ -38,6 +38,14 @@ npx nuxi build --preset=azure
 npx @azure/static-web-apps-cli start .output/public --api-location .output/server
 ```
 ---
+```yaml
+###### Repository/Build Configurations ######
+app_location: '/'
+api_location: '.output/server'
+output_location: '.output/public'
+###### End of Repository/Build Configurations ######
+```
+---
 ```bash
 {
   "routes": [
