@@ -6,9 +6,11 @@ useSeoMeta({
 </script>
 
 <template>
-  <div id=app>
+  <div id="app">
   <navbar-component/> 
-    <NuxtPage />
+
+        <NuxtPage />
+
   <footer-component/>
   </div>
 </template>
@@ -16,7 +18,7 @@ useSeoMeta({
 <style>
 #app {
   background-color: #020420;
-  color: #00DC82;
+  text-align: center;
 }
 </style>
 

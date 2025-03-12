@@ -71,10 +71,11 @@
  <style scoped>
  .page-footer{
      margin: 0px auto;
+     
  }
  
  .footer-copyright{
-       background:rgba(0,0,0,1) 
+       background:rgba(0,0,0,1);
  
  }
  </style>
