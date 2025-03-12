@@ -1,6 +1,5 @@
 <template>
-    <div>
-      <!-- Images -->
+    <div id="jumbotron">
       <img
         src="https://raw.githubusercontent.com/mindsetcloud/mindsetcloud/refs/heads/main/MINDSETCLOUD/IMG/avatar.svg"
         alt="Logo"
@@ -13,20 +12,21 @@
         width="80%"
         style="margin-left: 1%;"
       />
-    </div>
-  
-    <!-- Text Section -->
-    <div>
+    <div id="j-text">
       <h1>Transforming Data into Powerful Insights</h1>
     </div>
+    </div>
+  
+   
 
   </template>
   
   <script setup>
-  // You can add script logic here if needed
   </script>
   
   <style scoped>
-  /* Add scoped styles if required */
+  #jumbotron{
+    text-align: center;
+  }
   </style>
   
