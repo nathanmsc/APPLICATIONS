@@ -4,7 +4,7 @@
      <div class="container-fluid lead text-center muted text-md-left">
        <div class="row">
 
-         <div class="col-md-6 mt-md-0 mt-3">
+         <div class="col-md-4 mt-md-0 mt-3">
            <div class="module">
            <h5 class="text-uppercase text-white">Endereço</h5>
            <ul class="list-unstyled text-white">
@@ -54,17 +54,8 @@
        </div>
      </div>
  
-      <div class="footer-copyright text-center text-white py-3">
-         <!--
-         <p>
-           <b-img src="~/static/img/visa.png" blank-color="#abc" width="48" alt="placeholder"></b-img>
-           <b-img src="~/static/img/master.png" blank-color="#abc" width="48" alt="placeholder"></b-img>
-           <b-img src="~/static/img/hiper.png" blank-color="#abc" width="48" alt="placeholder"></b-img>
-           <b-img src="~/static/img/elo.png" blank-color="#abc" width="48" alt="placeholder"></b-img>
-           <b-img src="~/static/img/boleto.png" blank-color="#abc" width="48" alt="placeholder"></b-img>
-         </p>
-         -->
-         Copyright © mindsetcloud.net - {{year}}
+    <div class="footer-copyright text-center text-white py-3">
+        Copyright © mindsetcloud.net - {{year}}
      </div>
      </footer>
  </template>
