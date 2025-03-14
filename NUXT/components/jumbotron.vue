@@ -13,7 +13,7 @@
       style="margin-right: 0.5%;"
     />
     <div id="j-text">
-      <h1>Transforme o mundo com a força de um ecossistema interligado</h1>
+      <h1>Transforme tudo com a força de um ecossistema interligado</h1>
     </div>
   </div>
   

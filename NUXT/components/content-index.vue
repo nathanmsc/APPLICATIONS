@@ -5,7 +5,7 @@
 
             <dt>Conectividade de dispositivos IoT (Internet das Coisas)</dt>
   
-            <dl class="blockquote">
+            <dl class="content">
                 <b-img
                 src="https://dummyimage.com/200x200/787878/ffffff&text=200x200"
                 thumbnail
@@ -20,7 +20,7 @@
             </dl>
 
             <dt>Infraestrutura em nuvem</dt>
-            <dl class="blockquote">
+            <dl class="content">
                 <b-img
                 src="https://dummyimage.com/200x200/787878/ffffff&text=200x200"
                 thumbnail
@@ -36,7 +36,7 @@
             </dl>
         
             <dt>Análise de Dados e Inteligência de Negócios</dt>
-            <dl class="blockquote">
+            <dl class="content">
                 <b-img
                 src="https://dummyimage.com/200x200/787878/ffffff&text=200x200"
                 thumbnail
@@ -52,7 +52,7 @@
             </dl>
 
             <dt>Análise de Dados e Inteligência de Negócios</dt>
-            <dl class="blockquote">
+            <dl class="content">
                 <b-img
                 src="https://dummyimage.com/200x200/787878/ffffff&text=200x200"
                 thumbnail
@@ -70,20 +70,31 @@
     </Container>
 </template>
 <style>
+/*
+*/
+
 .content-page{
     background-color: bisque;
-    padding: 3% 8% 5% 8%;
+    /*padding: 3% 8% 5% 8%;*/
     color:azure;
     align-items: center;
 }
+
+.content{
+    padding: 0% 8% 0% 8%;
+    font-size: 1.25rem;
+    
+}
+
 dl{
     display: flex;
     align-items:flex;
 
 }
 dt {
+    margin: 1% 8% 1% 8%;
   font-weight: 700;
-  padding: 2%;
+  padding: 3% 8% 1% 8%;
   background-color: brown;
 }
 
@@ -94,4 +105,6 @@ dd {
   align-items: center;
   padding: 2%;
 }
+
+
 </style>
