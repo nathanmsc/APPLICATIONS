@@ -1,26 +1,60 @@
 <template>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">MINDSETCLOUD</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contacts</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>    
-</template>
+  
+  <Navbar
+   expand="lg"
+   theme="light"
+   style="background-color: #e3f2fd;"
+  >
+   <Container type="fluid">
+    <NavbarBrand to="/">MINDSETCLOUD</NavbarBrand>
+    <NavbarToggler />
+    <NavbarCollapse>
+     <NavbarNavList margin="e-auto b-2 b-lg-0">
+      <NavItem>
+       <NavLink active to="/home">
+        Home
+       </NavLink>
+      </NavItem>
+      <NavItem>
+       <NavLink to="/lang-en/components/navbar/">
+        Link
+       </NavLink>
+      </NavItem>
+      <NavItemDropdown>
+       <NavItemDropdownToggle>Dropdown</NavItemDropdownToggle>
+       <DropdownMenu>
+        <DropdownItem>Action</DropdownItem>
+        <DropdownItem to="/lang-en/components/navbar/">
+         Another action
+        </DropdownItem>
+        <DropdownItemDivider />
+        <DropdownItem>Something else here</DropdownItem>
+       </DropdownMenu>
+      </NavItemDropdown>
+      <NavItem>
+       <NavLink disabled>
+        Disabled
+       </NavLink>
+      </NavItem>
+     </NavbarNavList>
+     <BForm
+      flex
+      role="search"
+     >
+      <BFormInput
+       margin="e-2"
+       type="search"
+       placeholder="Search"
+      />
+      <b-button
+       color="outline-light"
+       type="submit"
+      >
+       Search
+      </b-button>
+     </BForm>
+    </NavbarCollapse>
+   </Container>
+  </Navbar>
+ </template>
+ 
